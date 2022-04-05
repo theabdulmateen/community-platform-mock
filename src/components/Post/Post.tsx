@@ -10,7 +10,7 @@ interface PostProps {
 
 export const PostCard = ({ title, body, id }: PostProps) => {
   return (
-    <Link passHref href={`/posts/${id}`}>
+    <Link passHref href={`/${id}`}>
       <article className="px-4 py-2 bg-white shadow-2xl">
         <h4 className="text-lg font-semibold">{title}</h4>
         <p className="mt-2 text-sm">{body.slice(0, 170)}</p>
