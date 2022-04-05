@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import { ChevronDownIcon } from '@heroicons/react/outline';
 
-import { usePosts } from '@/api/posts';
+import { usePosts } from '@/api/post/getPosts';
 import { PostCard } from '@/components/Post/Post';
 
 export const Landing = () => {
